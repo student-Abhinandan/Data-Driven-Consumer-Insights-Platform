@@ -1,10 +1,11 @@
-<img width="972" height="648" alt="Screenshot 2026-04-24 114619" src="https://github.com/user-attachments/assets/aed4d49a-fe04-4126-8e35-ac3f36b46c7b" /># Data-Driven-Consumer-Insights-Platform
+# Data-Driven-Consumer-Insights-Platform
 📊 Customer Shopping Behavior Analysis
-📌 Project Overview
 
+📌 Project Overview
 This project analyzes customer shopping behavior using a dataset of 3,900 transactions across multiple product categories. The goal is to uncover patterns in customer spending, preferences, and engagement to support data-driven business decisions.
 
 The project combines Python (EDA), SQL (analysis), and Power BI (visualization) to generate actionable insights.
+
 
 🎯 Objectives
 Analyze customer purchasing behavior across demographics
@@ -12,6 +13,8 @@ Identify key drivers such as discounts, reviews, and subscriptions
 Segment customers based on loyalty and purchase frequency
 Evaluate product performance and category trends
 Provide actionable business recommendations
+
+
 📂 Data Overview
 Rows: 3,900
 Columns: 18
@@ -23,11 +26,15 @@ Data Cleaning:
 Handled missing values in Review Rating using median imputation
 Removed redundant column (promo_code_used)
 Standardized column names to snake_case
+
+
 🛠️ Tech Stack
 Python: Pandas, NumPy (Data Cleaning & EDA)
 SQL (PostgreSQL): Data Analysis & Querying
 Power BI: Dashboard & Visualization
 GitHub: Version Control & Documentation
+
+
 🧱 Data Model Overview
 
 The dataset is structured as a single transactional table (customer), where each row represents a purchase.
@@ -45,6 +52,8 @@ previous_purchases
 Engineered Features:
 age_group → Customer segmentation
 purchase_frequency_days → Standardized frequency
+
+
 📊 Dashboard Preview
 
 Dashboard Highlights:
@@ -54,7 +63,7 @@ Sales Distribution
 Subscription Breakdown
 Revenue by Age Group
 
-(Upload your Power BI screenshot inside /assets/dashboard.png in your repo)
+<img width="972" height="648" alt="Screenshot 2026-04-24 114619" src="https://github.com/user-attachments/assets/aed4d49a-fe04-4126-8e35-ac3f36b46c7b" />
 
 
 📈 Key Insights
@@ -65,6 +74,8 @@ Majority of customers are loyal (repeat buyers)
 Young adults contribute the highest revenue
 Subscription base is smaller but consistent
 Some products (e.g., hats, sneakers) are highly discount-driven
+
+
 💡 Recommendations
 1.Target young adults and loyal customers for marketing campaigns
 2. Optimize discount strategies for high-performing products
